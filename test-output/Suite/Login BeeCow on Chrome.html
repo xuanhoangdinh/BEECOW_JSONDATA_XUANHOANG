@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  Login BeeCow on Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login BeeCow on Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 22 16:41:08 ICT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>205 seconds (205332 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_01_LoginEmptyEmailAndPassWord()'><b>TC_01_LoginEmptyEmailAndPassWord</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>1</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_02_LoginWrongSDT()'><b>TC_02_LoginWrongSDT</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>0</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_03_LoginWrongEmail()'><b>TC_03_LoginWrongEmail</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>0</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_04_LogincorrectEmailBlankPassword()'><b>TC_04_LogincorrectEmailBlankPassword</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>0</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_05_LogincorrectEmailPasswordNotEnoughtCharracter()'><b>TC_05_LogincorrectEmailPasswordNotEnoughtCharracter</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>0</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_06_LogincorrectEmailWrongPassword()'><b>TC_06_LogincorrectEmailWrongPassword</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>0</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.LoginScript.TC_07_LoginCorrectEmailSdtAndPassword()'><b>TC_07_LoginCorrectEmailSdtAndPassword</b><br>Test class: com.beecow.testcase.LoginScript</td>
+<td></td>
+<td>6</td>
+<td>com.beecow.testcase.LoginScript@1d057a39</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_08_VerifyCurrentUrL()'><b>TC_08_VerifyCurrentUrL</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>0</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_09_DontInputFieldAndPost()'><b>TC_09_DontInputFieldAndPost</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>2</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_10_OnlyUploadImgAndPost()'><b>TC_10_OnlyUploadImgAndPost</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>1</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_11_OnlyUploadImgAndNameproduct()'><b>TC_11_OnlyUploadImgAndNameproduct</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>1</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1()'><b>TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>2</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_13_PostWithInputFieldValidToCategoryRandomProductName3()'><b>TC_13_PostWithInputFieldValidToCategoryRandomProductName3</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>2</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_14_PostWithInputFieldValidToDescription()'><b>TC_14_PostWithInputFieldValidToDescription</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>2</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_15_PostWithInputValidFieldToQuantity()'><b>TC_15_PostWithInputValidFieldToQuantity</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_16PostWithInputValidFieldToPrice()'><b>TC_16PostWithInputValidFieldToPrice</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>2</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_17_PostValidFieldToWeightButSmallerRange()'><b>TC_17_PostValidFieldToWeightButSmallerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_18PostValidFieldToWeightButBiggerRange()'><b>TC_18PostValidFieldToWeightButBiggerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_19_PostValidFieldToWeightButWeightMin()'><b>TC_19_PostValidFieldToWeightButWeightMin</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_20_PostAllFieldCorrectButBlankWidtLengthHeight()'><b>TC_20_PostAllFieldCorrectButBlankWidtLengthHeight</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>2</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_21_PostValidFieldToWidthButWidthSmallerRange()'><b>TC_21_PostValidFieldToWidthButWidthSmallerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_22_PostValidFieldToWidthButWidthBiggerRange()'><b>TC_22_PostValidFieldToWidthButWidthBiggerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight()'><b>TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_24_PostValidFieldButBlankLengthHeight()'><b>TC_24_PostValidFieldButBlankLengthHeight</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_25_PostValidFieldToLengthButLengthSmallerRange()'><b>TC_25_PostValidFieldToLengthButLengthSmallerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_26_PostValidFieldToLengthButLengthBiggerRange()'><b>TC_26_PostValidFieldToLengthButLengthBiggerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_27_PostValidFieldToLengthAndLenghtOne()'><b>TC_27_PostValidFieldToLengthAndLenghtOne</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_28_PostValidFieldToLengthButBlankHeight()'><b>TC_28_PostValidFieldToLengthButBlankHeight</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_29_PostValidFieldToHeightButHeightSmallerRange()'><b>TC_29_PostValidFieldToHeightButHeightSmallerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_30_PostValidFieldToHeightButHeightBiggerRange()'><b>TC_30_PostValidFieldToHeightButHeightBiggerRange</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>3</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_31_PostValidFieldToHeightAndHeightValua1()'><b>TC_31_PostValidFieldToHeightAndHeightValua1</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>9</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_32_InputAllFieldCorrectButPriceProductNoDiscount()'><b>TC_32_InputAllFieldCorrectButPriceProductNoDiscount</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>8</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct()'><b>TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>29</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+<tr>
+<td title='com.beecow.testcase.CreateProductScript.TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue()'><b>TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue</b><br>Test class: com.beecow.testcase.CreateProductScript</td>
+<td></td>
+<td>21</td>
+<td>com.beecow.testcase.CreateProductScript@5c7fa833</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.beecow.testcase.LoginScript">
+        <methods>
+          <include name="TC_04_LogincorrectEmailBlankPassword"/>
+          <include name="TC_05_LogincorrectEmailPasswordNotEnoughtCharracter"/>
+          <include name="TC_07_LoginCorrectEmailSdtAndPassword"/>
+          <include name="TC_02_LoginWrongSDT"/>
+          <include name="TC_03_LoginWrongEmail"/>
+          <include name="TC_06_LogincorrectEmailWrongPassword"/>
+          <include name="TC_01_LoginEmptyEmailAndPassWord"/>
+        </methods>
+      </class> <!-- com.beecow.testcase.LoginScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

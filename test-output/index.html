@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Administrator.TY_NGUYEN\git\BEECOW_POM_XUANHOANG\src\test\java\runBeeCow.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_01_LoginEmptyEmailAndPassWord">TC_01_LoginEmptyEmailAndPassWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_02_LoginWrongSDT">TC_02_LoginWrongSDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_03_LoginWrongEmail">TC_03_LoginWrongEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_04_LogincorrectEmailBlankPassword">TC_04_LogincorrectEmailBlankPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_05_LogincorrectEmailPasswordNotEnoughtCharracter">TC_05_LogincorrectEmailPasswordNotEnoughtCharracter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_06_LogincorrectEmailWrongPassword">TC_06_LogincorrectEmailWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.LoginScript" hash-for-method="TC_07_LoginCorrectEmailSdtAndPassword">TC_07_LoginCorrectEmailSdtAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_08_VerifyCurrentUrL">TC_08_VerifyCurrentUrL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_09_DontInputFieldAndPost">TC_09_DontInputFieldAndPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_10_OnlyUploadImgAndPost">TC_10_OnlyUploadImgAndPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_11_OnlyUploadImgAndNameproduct">TC_11_OnlyUploadImgAndNameproduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1">TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_13_PostWithInputFieldValidToCategoryRandomProductName3">TC_13_PostWithInputFieldValidToCategoryRandomProductName3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_14_PostWithInputFieldValidToDescription">TC_14_PostWithInputFieldValidToDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_15_PostWithInputValidFieldToQuantity">TC_15_PostWithInputValidFieldToQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_16PostWithInputValidFieldToPrice">TC_16PostWithInputValidFieldToPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_17_PostValidFieldToWeightButSmallerRange">TC_17_PostValidFieldToWeightButSmallerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_18PostValidFieldToWeightButBiggerRange">TC_18PostValidFieldToWeightButBiggerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_19_PostValidFieldToWeightButWeightMin">TC_19_PostValidFieldToWeightButWeightMin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_20_PostAllFieldCorrectButBlankWidtLengthHeight">TC_20_PostAllFieldCorrectButBlankWidtLengthHeight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_21_PostValidFieldToWidthButWidthSmallerRange">TC_21_PostValidFieldToWidthButWidthSmallerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_22_PostValidFieldToWidthButWidthBiggerRange">TC_22_PostValidFieldToWidthButWidthBiggerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight">TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_24_PostValidFieldButBlankLengthHeight">TC_24_PostValidFieldButBlankLengthHeight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_25_PostValidFieldToLengthButLengthSmallerRange">TC_25_PostValidFieldToLengthButLengthSmallerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_26_PostValidFieldToLengthButLengthBiggerRange">TC_26_PostValidFieldToLengthButLengthBiggerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_27_PostValidFieldToLengthAndLenghtOne">TC_27_PostValidFieldToLengthAndLenghtOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_28_PostValidFieldToLengthButBlankHeight">TC_28_PostValidFieldToLengthButBlankHeight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_29_PostValidFieldToHeightButHeightSmallerRange">TC_29_PostValidFieldToHeightButHeightSmallerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_30_PostValidFieldToHeightButHeightBiggerRange">TC_30_PostValidFieldToHeightButHeightBiggerRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_31_PostValidFieldToHeightAndHeightValua1">TC_31_PostValidFieldToHeightAndHeightValua1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_32_InputAllFieldCorrectButPriceProductNoDiscount">TC_32_InputAllFieldCorrectButPriceProductNoDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct">TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.beecow.testcase.CreateProductScript" hash-for-method="TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue">TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.beecow.testcase.CreateProductScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08_VerifyCurrentUrL">
+                  </a> <!-- TC_08_VerifyCurrentUrL -->
+                  <span class="method-name">TC_08_VerifyCurrentUrL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_09_DontInputFieldAndPost">
+                  </a> <!-- TC_09_DontInputFieldAndPost -->
+                  <span class="method-name">TC_09_DontInputFieldAndPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_10_OnlyUploadImgAndPost">
+                  </a> <!-- TC_10_OnlyUploadImgAndPost -->
+                  <span class="method-name">TC_10_OnlyUploadImgAndPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_11_OnlyUploadImgAndNameproduct">
+                  </a> <!-- TC_11_OnlyUploadImgAndNameproduct -->
+                  <span class="method-name">TC_11_OnlyUploadImgAndNameproduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1">
+                  </a> <!-- TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1 -->
+                  <span class="method-name">TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_13_PostWithInputFieldValidToCategoryRandomProductName3">
+                  </a> <!-- TC_13_PostWithInputFieldValidToCategoryRandomProductName3 -->
+                  <span class="method-name">TC_13_PostWithInputFieldValidToCategoryRandomProductName3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_14_PostWithInputFieldValidToDescription">
+                  </a> <!-- TC_14_PostWithInputFieldValidToDescription -->
+                  <span class="method-name">TC_14_PostWithInputFieldValidToDescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_15_PostWithInputValidFieldToQuantity">
+                  </a> <!-- TC_15_PostWithInputValidFieldToQuantity -->
+                  <span class="method-name">TC_15_PostWithInputValidFieldToQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_16PostWithInputValidFieldToPrice">
+                  </a> <!-- TC_16PostWithInputValidFieldToPrice -->
+                  <span class="method-name">TC_16PostWithInputValidFieldToPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_17_PostValidFieldToWeightButSmallerRange">
+                  </a> <!-- TC_17_PostValidFieldToWeightButSmallerRange -->
+                  <span class="method-name">TC_17_PostValidFieldToWeightButSmallerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_18PostValidFieldToWeightButBiggerRange">
+                  </a> <!-- TC_18PostValidFieldToWeightButBiggerRange -->
+                  <span class="method-name">TC_18PostValidFieldToWeightButBiggerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_19_PostValidFieldToWeightButWeightMin">
+                  </a> <!-- TC_19_PostValidFieldToWeightButWeightMin -->
+                  <span class="method-name">TC_19_PostValidFieldToWeightButWeightMin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_20_PostAllFieldCorrectButBlankWidtLengthHeight">
+                  </a> <!-- TC_20_PostAllFieldCorrectButBlankWidtLengthHeight -->
+                  <span class="method-name">TC_20_PostAllFieldCorrectButBlankWidtLengthHeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_21_PostValidFieldToWidthButWidthSmallerRange">
+                  </a> <!-- TC_21_PostValidFieldToWidthButWidthSmallerRange -->
+                  <span class="method-name">TC_21_PostValidFieldToWidthButWidthSmallerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_22_PostValidFieldToWidthButWidthBiggerRange">
+                  </a> <!-- TC_22_PostValidFieldToWidthButWidthBiggerRange -->
+                  <span class="method-name">TC_22_PostValidFieldToWidthButWidthBiggerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight">
+                  </a> <!-- TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight -->
+                  <span class="method-name">TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_24_PostValidFieldButBlankLengthHeight">
+                  </a> <!-- TC_24_PostValidFieldButBlankLengthHeight -->
+                  <span class="method-name">TC_24_PostValidFieldButBlankLengthHeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_25_PostValidFieldToLengthButLengthSmallerRange">
+                  </a> <!-- TC_25_PostValidFieldToLengthButLengthSmallerRange -->
+                  <span class="method-name">TC_25_PostValidFieldToLengthButLengthSmallerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_26_PostValidFieldToLengthButLengthBiggerRange">
+                  </a> <!-- TC_26_PostValidFieldToLengthButLengthBiggerRange -->
+                  <span class="method-name">TC_26_PostValidFieldToLengthButLengthBiggerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_27_PostValidFieldToLengthAndLenghtOne">
+                  </a> <!-- TC_27_PostValidFieldToLengthAndLenghtOne -->
+                  <span class="method-name">TC_27_PostValidFieldToLengthAndLenghtOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_28_PostValidFieldToLengthButBlankHeight">
+                  </a> <!-- TC_28_PostValidFieldToLengthButBlankHeight -->
+                  <span class="method-name">TC_28_PostValidFieldToLengthButBlankHeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_29_PostValidFieldToHeightButHeightSmallerRange">
+                  </a> <!-- TC_29_PostValidFieldToHeightButHeightSmallerRange -->
+                  <span class="method-name">TC_29_PostValidFieldToHeightButHeightSmallerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_30_PostValidFieldToHeightButHeightBiggerRange">
+                  </a> <!-- TC_30_PostValidFieldToHeightButHeightBiggerRange -->
+                  <span class="method-name">TC_30_PostValidFieldToHeightButHeightBiggerRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_31_PostValidFieldToHeightAndHeightValua1">
+                  </a> <!-- TC_31_PostValidFieldToHeightAndHeightValua1 -->
+                  <span class="method-name">TC_31_PostValidFieldToHeightAndHeightValua1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_32_InputAllFieldCorrectButPriceProductNoDiscount">
+                  </a> <!-- TC_32_InputAllFieldCorrectButPriceProductNoDiscount -->
+                  <span class="method-name">TC_32_InputAllFieldCorrectButPriceProductNoDiscount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct">
+                  </a> <!-- TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct -->
+                  <span class="method-name">TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue">
+                  </a> <!-- TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue -->
+                  <span class="method-name">TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.beecow.testcase.LoginScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_LoginEmptyEmailAndPassWord">
+                  </a> <!-- TC_01_LoginEmptyEmailAndPassWord -->
+                  <span class="method-name">TC_01_LoginEmptyEmailAndPassWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_LoginWrongSDT">
+                  </a> <!-- TC_02_LoginWrongSDT -->
+                  <span class="method-name">TC_02_LoginWrongSDT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_LoginWrongEmail">
+                  </a> <!-- TC_03_LoginWrongEmail -->
+                  <span class="method-name">TC_03_LoginWrongEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_LogincorrectEmailBlankPassword">
+                  </a> <!-- TC_04_LogincorrectEmailBlankPassword -->
+                  <span class="method-name">TC_04_LogincorrectEmailBlankPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_LogincorrectEmailPasswordNotEnoughtCharracter">
+                  </a> <!-- TC_05_LogincorrectEmailPasswordNotEnoughtCharracter -->
+                  <span class="method-name">TC_05_LogincorrectEmailPasswordNotEnoughtCharracter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_LogincorrectEmailWrongPassword">
+                  </a> <!-- TC_06_LogincorrectEmailWrongPassword -->
+                  <span class="method-name">TC_06_LogincorrectEmailWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_07_LoginCorrectEmailSdtAndPassword">
+                  </a> <!-- TC_07_LoginCorrectEmailSdtAndPassword -->
+                  <span class="method-name">TC_07_LoginCorrectEmailSdtAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator.TY_NGUYEN\git\BEECOW_POM_XUANHOANG\src\test\java\runBeeCow.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Login BeeCow on Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;74.0.3729.6&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.beecow.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.beecow.testcase.LoginScript&quot;/&gt;
+      &lt;class name=&quot;com.beecow.testcase.CreateProductScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login BeeCow on Chrome --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login BeeCow on Chrome (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct')
+data.setCell(0, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(0, 3, 29621);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue')
+data.setCell(1, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(1, 3, 21020);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_31_PostValidFieldToHeightAndHeightValua1')
+data.setCell(2, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(2, 3, 9727);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_32_InputAllFieldCorrectButPriceProductNoDiscount')
+data.setCell(3, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(3, 3, 8952);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_07_LoginCorrectEmailSdtAndPassword')
+data.setCell(4, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(4, 3, 6250);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_25_PostValidFieldToLengthButLengthSmallerRange')
+data.setCell(5, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(5, 3, 3949);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_17_PostValidFieldToWeightButSmallerRange')
+data.setCell(6, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(6, 3, 3805);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight')
+data.setCell(7, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(7, 3, 3643);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_15_PostWithInputValidFieldToQuantity')
+data.setCell(8, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(8, 3, 3585);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_27_PostValidFieldToLengthAndLenghtOne')
+data.setCell(9, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(9, 3, 3524);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_21_PostValidFieldToWidthButWidthSmallerRange')
+data.setCell(10, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(10, 3, 3342);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_29_PostValidFieldToHeightButHeightSmallerRange')
+data.setCell(11, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(11, 3, 3237);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_19_PostValidFieldToWeightButWeightMin')
+data.setCell(12, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(12, 3, 3202);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_26_PostValidFieldToLengthButLengthBiggerRange')
+data.setCell(13, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(13, 3, 3188);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_30_PostValidFieldToHeightButHeightBiggerRange')
+data.setCell(14, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(14, 3, 3105);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_28_PostValidFieldToLengthButBlankHeight')
+data.setCell(15, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(15, 3, 3100);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_22_PostValidFieldToWidthButWidthBiggerRange')
+data.setCell(16, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(16, 3, 3093);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_24_PostValidFieldButBlankLengthHeight')
+data.setCell(17, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(17, 3, 3071);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_18PostValidFieldToWeightButBiggerRange')
+data.setCell(18, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(18, 3, 3063);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_16PostWithInputValidFieldToPrice')
+data.setCell(19, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(19, 3, 2920);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1')
+data.setCell(20, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(20, 3, 2872);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC_13_PostWithInputFieldValidToCategoryRandomProductName3')
+data.setCell(21, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(21, 3, 2796);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC_14_PostWithInputFieldValidToDescription')
+data.setCell(22, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(22, 3, 2793);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC_20_PostAllFieldCorrectButBlankWidtLengthHeight')
+data.setCell(23, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(23, 3, 2738);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC_09_DontInputFieldAndPost')
+data.setCell(24, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(24, 3, 2068);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC_10_OnlyUploadImgAndPost')
+data.setCell(25, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(25, 3, 1864);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC_11_OnlyUploadImgAndNameproduct')
+data.setCell(26, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(26, 3, 1850);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TC_01_LoginEmptyEmailAndPassWord')
+data.setCell(27, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(27, 3, 1397);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TC_06_LogincorrectEmailWrongPassword')
+data.setCell(28, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(28, 3, 762);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TC_04_LogincorrectEmailBlankPassword')
+data.setCell(29, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(29, 3, 458);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TC_03_LoginWrongEmail')
+data.setCell(30, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(30, 3, 349);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TC_02_LoginWrongSDT')
+data.setCell(31, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(31, 3, 347);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TC_05_LogincorrectEmailPasswordNotEnoughtCharracter')
+data.setCell(32, 2, 'com.beecow.testcase.LoginScript')
+data.setCell(32, 3, 284);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TC_08_VerifyCurrentUrL')
+data.setCell(33, 2, 'com.beecow.testcase.CreateProductScript')
+data.setCell(33, 3, 80);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.beecow.testcase.LoginScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeClass(chrome, 74.0.3729.6, https://www.beecow.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_LoginEmptyEmailAndPassWord</span>
+                <span class="method-start">7784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_01_LoginEmptyEmailAndPassWord status=SUCCESS method=LoginScript.TC_01_LoginEmpty...)</span>
+                <span class="method-start">9182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_02_LoginWrongSDT</span>
+                <span class="method-start">9189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_03_LoginWrongEmail</span>
+                <span class="method-start">9537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_02_LoginWrongSDT status=SUCCESS method=LoginScript.TC_02_LoginWrongSDT()[pri:0, ...)</span>
+                <span class="method-start">9537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_04_LogincorrectEmailBlankPassword</span>
+                <span class="method-start">9887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_03_LoginWrongEmail status=SUCCESS method=LoginScript.TC_03_LoginWrongEmail()[pri...)</span>
+                <span class="method-start">9887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_05_LogincorrectEmailPasswordNotEnoughtCharracter</span>
+                <span class="method-start">10346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_04_LogincorrectEmailBlankPassword status=SUCCESS method=LoginScript.TC_04_Loginc...)</span>
+                <span class="method-start">10346 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_05_LogincorrectEmailPasswordNotEnoughtCharracter status=SUCCESS method=LoginScri...)</span>
+                <span class="method-start">10630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_06_LogincorrectEmailWrongPassword</span>
+                <span class="method-start">10631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_07_LoginCorrectEmailSdtAndPassword</span>
+                <span class="method-start">11394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_06_LogincorrectEmailWrongPassword status=SUCCESS method=LoginScript.TC_06_Loginc...)</span>
+                <span class="method-start">11394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_07_LoginCorrectEmailSdtAndPassword status=SUCCESS method=LoginScript.TC_07_Login...)</span>
+                <span class="method-start">17645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">17647 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.beecow.testcase.CreateProductScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeClass(chrome, 74.0.3729.6, https://www.beecow.com)</span>
+                <span class="method-start">18594 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_08_VerifyCurrentUrL</span>
+                <span class="method-start">34166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_08_VerifyCurrentUrL status=SUCCESS method=CreateProductScript.TC_08_VerifyCurren...)</span>
+                <span class="method-start">34247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">34247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_09_DontInputFieldAndPost</span>
+                <span class="method-start">35652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_09_DontInputFieldAndPost status=SUCCESS method=CreateProductScript.TC_09_DontInp...)</span>
+                <span class="method-start">37721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">37722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_10_OnlyUploadImgAndPost</span>
+                <span class="method-start">38888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_10_OnlyUploadImgAndPost status=SUCCESS method=CreateProductScript.TC_10_OnlyUplo...)</span>
+                <span class="method-start">40753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">40753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_11_OnlyUploadImgAndNameproduct</span>
+                <span class="method-start">42004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_11_OnlyUploadImgAndNameproduct status=SUCCESS method=CreateProductScript.TC_11_O...)</span>
+                <span class="method-start">43854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">43855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1</span>
+                <span class="method-start">45103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1 status=SUCCESS method=...)</span>
+                <span class="method-start">47976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">47977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_13_PostWithInputFieldValidToCategoryRandomProductName3</span>
+                <span class="method-start">49225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_13_PostWithInputFieldValidToCategoryRandomProductName3 status=SUCCESS method=Cre...)</span>
+                <span class="method-start">52021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">52022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_14_PostWithInputFieldValidToDescription</span>
+                <span class="method-start">53524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_14_PostWithInputFieldValidToDescription status=SUCCESS method=CreateProductScrip...)</span>
+                <span class="method-start">56318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">56319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_15_PostWithInputValidFieldToQuantity</span>
+                <span class="method-start">57585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_15_PostWithInputValidFieldToQuantity status=SUCCESS method=CreateProductScript.T...)</span>
+                <span class="method-start">61170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">61171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_16PostWithInputValidFieldToPrice</span>
+                <span class="method-start">62929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_16PostWithInputValidFieldToPrice status=SUCCESS method=CreateProductScript.TC_16...)</span>
+                <span class="method-start">65850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">65850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_17_PostValidFieldToWeightButSmallerRange</span>
+                <span class="method-start">66978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_17_PostValidFieldToWeightButSmallerRange status=SUCCESS method=CreateProductScri...)</span>
+                <span class="method-start">70784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">70784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_18PostValidFieldToWeightButBiggerRange</span>
+                <span class="method-start">72000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_18PostValidFieldToWeightButBiggerRange status=SUCCESS method=CreateProductScript...)</span>
+                <span class="method-start">75063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">75064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_19_PostValidFieldToWeightButWeightMin</span>
+                <span class="method-start">76244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_19_PostValidFieldToWeightButWeightMin status=SUCCESS method=CreateProductScript....)</span>
+                <span class="method-start">79447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">79447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_20_PostAllFieldCorrectButBlankWidtLengthHeight</span>
+                <span class="method-start">80606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_20_PostAllFieldCorrectButBlankWidtLengthHeight status=SUCCESS method=CreateProdu...)</span>
+                <span class="method-start">83345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">83346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_21_PostValidFieldToWidthButWidthSmallerRange</span>
+                <span class="method-start">84738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_21_PostValidFieldToWidthButWidthSmallerRange status=SUCCESS method=CreateProduct...)</span>
+                <span class="method-start">88080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">88081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_22_PostValidFieldToWidthButWidthBiggerRange</span>
+                <span class="method-start">89318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_22_PostValidFieldToWidthButWidthBiggerRange status=SUCCESS method=CreateProductS...)</span>
+                <span class="method-start">92411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">92412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight</span>
+                <span class="method-start">93858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight status=SUCCESS method=Cr...)</span>
+                <span class="method-start">97502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">97503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_24_PostValidFieldButBlankLengthHeight</span>
+                <span class="method-start">98826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_24_PostValidFieldButBlankLengthHeight status=SUCCESS method=CreateProductScript....)</span>
+                <span class="method-start">101897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">101898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_25_PostValidFieldToLengthButLengthSmallerRange</span>
+                <span class="method-start">103255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_25_PostValidFieldToLengthButLengthSmallerRange status=SUCCESS method=CreateProdu...)</span>
+                <span class="method-start">107205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">107205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_26_PostValidFieldToLengthButLengthBiggerRange</span>
+                <span class="method-start">108519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_26_PostValidFieldToLengthButLengthBiggerRange status=SUCCESS method=CreateProduc...)</span>
+                <span class="method-start">111708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">111708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_27_PostValidFieldToLengthAndLenghtOne</span>
+                <span class="method-start">112906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_27_PostValidFieldToLengthAndLenghtOne status=SUCCESS method=CreateProductScript....)</span>
+                <span class="method-start">116430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">116431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_28_PostValidFieldToLengthButBlankHeight</span>
+                <span class="method-start">117818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_28_PostValidFieldToLengthButBlankHeight status=SUCCESS method=CreateProductScrip...)</span>
+                <span class="method-start">120918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">120919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_29_PostValidFieldToHeightButHeightSmallerRange</span>
+                <span class="method-start">122074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_29_PostValidFieldToHeightButHeightSmallerRange status=SUCCESS method=CreateProdu...)</span>
+                <span class="method-start">125311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">125313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_30_PostValidFieldToHeightButHeightBiggerRange</span>
+                <span class="method-start">126732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_30_PostValidFieldToHeightButHeightBiggerRange status=SUCCESS method=CreateProduc...)</span>
+                <span class="method-start">129838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">129838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_31_PostValidFieldToHeightAndHeightValua1</span>
+                <span class="method-start">131115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_31_PostValidFieldToHeightAndHeightValua1 status=SUCCESS method=CreateProductScri...)</span>
+                <span class="method-start">140842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">140843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_32_InputAllFieldCorrectButPriceProductNoDiscount</span>
+                <span class="method-start">142188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_32_InputAllFieldCorrectButPriceProductNoDiscount status=SUCCESS method=CreatePro...)</span>
+                <span class="method-start">151140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">151141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct</span>
+                <span class="method-start">152323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct status=SUCCESS m...)</span>
+                <span class="method-start">181945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">181946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue</span>
+                <span class="method-start">183586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue status=SUCCE...)</span>
+                <span class="method-start">204606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">204607 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

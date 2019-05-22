@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Login BeeCow on Chrome">
+		<parameter name="browser" value="chrome" />
+		<!-- <parameter name="version" value="2.46" /> -->
+		<parameter name="version" value="74.0.3729.6" />
+		<parameter name="url" value="https://www.beecow.com" />
+		<classes>
+			<class name="com.beecow.testcase.LoginScript" />
+			<class name="com.beecow.testcase.CreateProductScript" />
+
+		</classes>
+	</test>
+	<!-- <test name="Login guru on Firefox"> -->
+	<!-- <parameter name="browser" value="firefox" /> -->
+	<!-- <parameter name="version" value="0.21.0" /> -->
+	<!-- <parameter name="url" value="http://demo.guru99.com/v4" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.bankguru.testcase.LogInScript" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+</suite> 

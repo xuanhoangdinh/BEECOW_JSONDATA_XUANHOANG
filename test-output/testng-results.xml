@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="205332" started-at="2019-05-22T09:41:08Z" finished-at="2019-05-22T09:44:33Z">
+    <groups>
+    </groups>
+    <test name="Login BeeCow on Chrome" duration-ms="205332" started-at="2019-05-22T09:41:08Z" finished-at="2019-05-22T09:44:33Z">
+      <class name="com.beecow.testcase.LoginScript">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="BeforeClass" is-config="true" duration-ms="7782" started-at="2019-05-22T16:41:08Z" finished-at="2019-05-22T16:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[74.0.3729.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.beecow.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="TC_01_LoginEmptyEmailAndPassWord()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_01_LoginEmptyEmailAndPassWord" duration-ms="1397" started-at="2019-05-22T16:41:16Z" finished-at="2019-05-22T16:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginEmptyEmailAndPassWord -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="6" started-at="2019-05-22T16:41:17Z" finished-at="2019-05-22T16:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_LoginEmptyEmailAndPassWord status=SUCCESS method=LoginScript.TC_01_LoginEmptyEmailAndPassWord()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_02_LoginWrongSDT()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_02_LoginWrongSDT" duration-ms="347" started-at="2019-05-22T16:41:17Z" finished-at="2019-05-22T16:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_LoginWrongSDT -->
+        <test-method status="PASS" signature="TC_03_LoginWrongEmail()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_03_LoginWrongEmail" duration-ms="349" started-at="2019-05-22T16:41:18Z" finished-at="2019-05-22T16:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_LoginWrongEmail -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:18Z" finished-at="2019-05-22T16:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_LoginWrongSDT status=SUCCESS method=LoginScript.TC_02_LoginWrongSDT()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:18Z" finished-at="2019-05-22T16:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_LoginWrongEmail status=SUCCESS method=LoginScript.TC_03_LoginWrongEmail()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_04_LogincorrectEmailBlankPassword()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_04_LogincorrectEmailBlankPassword" duration-ms="458" started-at="2019-05-22T16:41:18Z" finished-at="2019-05-22T16:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_LogincorrectEmailBlankPassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:18Z" finished-at="2019-05-22T16:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04_LogincorrectEmailBlankPassword status=SUCCESS method=LoginScript.TC_04_LogincorrectEmailBlankPassword()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_05_LogincorrectEmailPasswordNotEnoughtCharracter()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_05_LogincorrectEmailPasswordNotEnoughtCharracter" duration-ms="284" started-at="2019-05-22T16:41:18Z" finished-at="2019-05-22T16:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_LogincorrectEmailPasswordNotEnoughtCharracter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:41:19Z" finished-at="2019-05-22T16:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_05_LogincorrectEmailPasswordNotEnoughtCharracter status=SUCCESS method=LoginScript.TC_05_LogincorrectEmailPasswordNotEnoughtCharracter()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_06_LogincorrectEmailWrongPassword()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_06_LogincorrectEmailWrongPassword" duration-ms="762" started-at="2019-05-22T16:41:19Z" finished-at="2019-05-22T16:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_LogincorrectEmailWrongPassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:19Z" finished-at="2019-05-22T16:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_06_LogincorrectEmailWrongPassword status=SUCCESS method=LoginScript.TC_06_LogincorrectEmailWrongPassword()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_07_LoginCorrectEmailSdtAndPassword()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="TC_07_LoginCorrectEmailSdtAndPassword" duration-ms="6250" started-at="2019-05-22T16:41:19Z" finished-at="2019-05-22T16:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_LoginCorrectEmailSdtAndPassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-05-22T16:41:26Z" finished-at="2019-05-22T16:41:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_07_LoginCorrectEmailSdtAndPassword status=SUCCESS method=LoginScript.TC_07_LoginCorrectEmailSdtAndPassword()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.beecow.testcase.LoginScript@1d057a39]" name="afterClass" is-config="true" duration-ms="947" started-at="2019-05-22T16:41:26Z" finished-at="2019-05-22T16:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.beecow.testcase.LoginScript -->
+      <class name="com.beecow.testcase.CreateProductScript">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="BeforeClass" is-config="true" duration-ms="14200" started-at="2019-05-22T16:41:27Z" finished-at="2019-05-22T16:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[74.0.3729.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.beecow.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1371" started-at="2019-05-22T16:41:41Z" finished-at="2019-05-22T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_08_VerifyCurrentUrL()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_08_VerifyCurrentUrL" duration-ms="80" started-at="2019-05-22T16:41:42Z" finished-at="2019-05-22T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_VerifyCurrentUrL -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:42Z" finished-at="2019-05-22T16:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08_VerifyCurrentUrL status=SUCCESS method=CreateProductScript.TC_08_VerifyCurrentUrL()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1405" started-at="2019-05-22T16:41:42Z" finished-at="2019-05-22T16:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_09_DontInputFieldAndPost()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_09_DontInputFieldAndPost" duration-ms="2068" started-at="2019-05-22T16:41:44Z" finished-at="2019-05-22T16:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_DontInputFieldAndPost -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:46Z" finished-at="2019-05-22T16:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_09_DontInputFieldAndPost status=SUCCESS method=CreateProductScript.TC_09_DontInputFieldAndPost()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1166" started-at="2019-05-22T16:41:46Z" finished-at="2019-05-22T16:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_10_OnlyUploadImgAndPost()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_10_OnlyUploadImgAndPost" duration-ms="1864" started-at="2019-05-22T16:41:47Z" finished-at="2019-05-22T16:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_OnlyUploadImgAndPost -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1251" started-at="2019-05-22T16:41:49Z" finished-at="2019-05-22T16:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:49Z" finished-at="2019-05-22T16:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_10_OnlyUploadImgAndPost status=SUCCESS method=CreateProductScript.TC_10_OnlyUploadImgAndPost()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_11_OnlyUploadImgAndNameproduct()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_11_OnlyUploadImgAndNameproduct" duration-ms="1850" started-at="2019-05-22T16:41:50Z" finished-at="2019-05-22T16:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_OnlyUploadImgAndNameproduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:41:52Z" finished-at="2019-05-22T16:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_11_OnlyUploadImgAndNameproduct status=SUCCESS method=CreateProductScript.TC_11_OnlyUploadImgAndNameproduct()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1248" started-at="2019-05-22T16:41:52Z" finished-at="2019-05-22T16:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1" duration-ms="2872" started-at="2019-05-22T16:41:53Z" finished-at="2019-05-22T16:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:41:56Z" finished-at="2019-05-22T16:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1 status=SUCCESS method=CreateProductScript.TC_12_PostWithUploadImgAndNameproductAndClickRandomCategory1()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1248" started-at="2019-05-22T16:41:56Z" finished-at="2019-05-22T16:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_13_PostWithInputFieldValidToCategoryRandomProductName3()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_13_PostWithInputFieldValidToCategoryRandomProductName3" duration-ms="2796" started-at="2019-05-22T16:41:57Z" finished-at="2019-05-22T16:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13_PostWithInputFieldValidToCategoryRandomProductName3 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:00Z" finished-at="2019-05-22T16:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_13_PostWithInputFieldValidToCategoryRandomProductName3 status=SUCCESS method=CreateProductScript.TC_13_PostWithInputFieldValidToCategoryRandomProductName3()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1502" started-at="2019-05-22T16:42:00Z" finished-at="2019-05-22T16:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_14_PostWithInputFieldValidToDescription()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_14_PostWithInputFieldValidToDescription" duration-ms="2793" started-at="2019-05-22T16:42:02Z" finished-at="2019-05-22T16:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14_PostWithInputFieldValidToDescription -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:42:04Z" finished-at="2019-05-22T16:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_14_PostWithInputFieldValidToDescription status=SUCCESS method=CreateProductScript.TC_14_PostWithInputFieldValidToDescription()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1266" started-at="2019-05-22T16:42:04Z" finished-at="2019-05-22T16:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_15_PostWithInputValidFieldToQuantity()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_15_PostWithInputValidFieldToQuantity" duration-ms="3585" started-at="2019-05-22T16:42:06Z" finished-at="2019-05-22T16:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15_PostWithInputValidFieldToQuantity -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:09Z" finished-at="2019-05-22T16:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_15_PostWithInputValidFieldToQuantity status=SUCCESS method=CreateProductScript.TC_15_PostWithInputValidFieldToQuantity()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1758" started-at="2019-05-22T16:42:09Z" finished-at="2019-05-22T16:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_16PostWithInputValidFieldToPrice()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_16PostWithInputValidFieldToPrice" duration-ms="2920" started-at="2019-05-22T16:42:11Z" finished-at="2019-05-22T16:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16PostWithInputValidFieldToPrice -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:42:14Z" finished-at="2019-05-22T16:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_16PostWithInputValidFieldToPrice status=SUCCESS method=CreateProductScript.TC_16PostWithInputValidFieldToPrice()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1128" started-at="2019-05-22T16:42:14Z" finished-at="2019-05-22T16:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_17_PostValidFieldToWeightButSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_17_PostValidFieldToWeightButSmallerRange" duration-ms="3805" started-at="2019-05-22T16:42:15Z" finished-at="2019-05-22T16:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_PostValidFieldToWeightButSmallerRange -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1216" started-at="2019-05-22T16:42:19Z" finished-at="2019-05-22T16:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:42:19Z" finished-at="2019-05-22T16:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_17_PostValidFieldToWeightButSmallerRange status=SUCCESS method=CreateProductScript.TC_17_PostValidFieldToWeightButSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_18PostValidFieldToWeightButBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_18PostValidFieldToWeightButBiggerRange" duration-ms="3063" started-at="2019-05-22T16:42:20Z" finished-at="2019-05-22T16:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18PostValidFieldToWeightButBiggerRange -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:23Z" finished-at="2019-05-22T16:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_18PostValidFieldToWeightButBiggerRange status=SUCCESS method=CreateProductScript.TC_18PostValidFieldToWeightButBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1180" started-at="2019-05-22T16:42:23Z" finished-at="2019-05-22T16:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_19_PostValidFieldToWeightButWeightMin()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_19_PostValidFieldToWeightButWeightMin" duration-ms="3202" started-at="2019-05-22T16:42:24Z" finished-at="2019-05-22T16:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19_PostValidFieldToWeightButWeightMin -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1159" started-at="2019-05-22T16:42:27Z" finished-at="2019-05-22T16:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:42:27Z" finished-at="2019-05-22T16:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_19_PostValidFieldToWeightButWeightMin status=SUCCESS method=CreateProductScript.TC_19_PostValidFieldToWeightButWeightMin()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_20_PostAllFieldCorrectButBlankWidtLengthHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_20_PostAllFieldCorrectButBlankWidtLengthHeight" duration-ms="2738" started-at="2019-05-22T16:42:29Z" finished-at="2019-05-22T16:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_20_PostAllFieldCorrectButBlankWidtLengthHeight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:31Z" finished-at="2019-05-22T16:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_20_PostAllFieldCorrectButBlankWidtLengthHeight status=SUCCESS method=CreateProductScript.TC_20_PostAllFieldCorrectButBlankWidtLengthHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1392" started-at="2019-05-22T16:42:31Z" finished-at="2019-05-22T16:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_21_PostValidFieldToWidthButWidthSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_21_PostValidFieldToWidthButWidthSmallerRange" duration-ms="3342" started-at="2019-05-22T16:42:33Z" finished-at="2019-05-22T16:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21_PostValidFieldToWidthButWidthSmallerRange -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:36Z" finished-at="2019-05-22T16:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_21_PostValidFieldToWidthButWidthSmallerRange status=SUCCESS method=CreateProductScript.TC_21_PostValidFieldToWidthButWidthSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1237" started-at="2019-05-22T16:42:36Z" finished-at="2019-05-22T16:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_22_PostValidFieldToWidthButWidthBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_22_PostValidFieldToWidthButWidthBiggerRange" duration-ms="3093" started-at="2019-05-22T16:42:37Z" finished-at="2019-05-22T16:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_22_PostValidFieldToWidthButWidthBiggerRange -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:40Z" finished-at="2019-05-22T16:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_22_PostValidFieldToWidthButWidthBiggerRange status=SUCCESS method=CreateProductScript.TC_22_PostValidFieldToWidthButWidthBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1446" started-at="2019-05-22T16:42:40Z" finished-at="2019-05-22T16:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight" duration-ms="3643" started-at="2019-05-22T16:42:42Z" finished-at="2019-05-22T16:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:45Z" finished-at="2019-05-22T16:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight status=SUCCESS method=CreateProductScript.TC_23_PostValidFieldToWidthWidthMinAndButBlankLengthHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1323" started-at="2019-05-22T16:42:45Z" finished-at="2019-05-22T16:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_24_PostValidFieldButBlankLengthHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_24_PostValidFieldButBlankLengthHeight" duration-ms="3071" started-at="2019-05-22T16:42:47Z" finished-at="2019-05-22T16:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24_PostValidFieldButBlankLengthHeight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:42:50Z" finished-at="2019-05-22T16:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_24_PostValidFieldButBlankLengthHeight status=SUCCESS method=CreateProductScript.TC_24_PostValidFieldButBlankLengthHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1357" started-at="2019-05-22T16:42:50Z" finished-at="2019-05-22T16:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_25_PostValidFieldToLengthButLengthSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_25_PostValidFieldToLengthButLengthSmallerRange" duration-ms="3949" started-at="2019-05-22T16:42:51Z" finished-at="2019-05-22T16:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_25_PostValidFieldToLengthButLengthSmallerRange -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1314" started-at="2019-05-22T16:42:55Z" finished-at="2019-05-22T16:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:42:55Z" finished-at="2019-05-22T16:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_25_PostValidFieldToLengthButLengthSmallerRange status=SUCCESS method=CreateProductScript.TC_25_PostValidFieldToLengthButLengthSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_26_PostValidFieldToLengthButLengthBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_26_PostValidFieldToLengthButLengthBiggerRange" duration-ms="3188" started-at="2019-05-22T16:42:57Z" finished-at="2019-05-22T16:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_26_PostValidFieldToLengthButLengthBiggerRange -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1198" started-at="2019-05-22T16:43:00Z" finished-at="2019-05-22T16:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:43:00Z" finished-at="2019-05-22T16:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_26_PostValidFieldToLengthButLengthBiggerRange status=SUCCESS method=CreateProductScript.TC_26_PostValidFieldToLengthButLengthBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_27_PostValidFieldToLengthAndLenghtOne()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_27_PostValidFieldToLengthAndLenghtOne" duration-ms="3524" started-at="2019-05-22T16:43:01Z" finished-at="2019-05-22T16:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_27_PostValidFieldToLengthAndLenghtOne -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:43:04Z" finished-at="2019-05-22T16:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_27_PostValidFieldToLengthAndLenghtOne status=SUCCESS method=CreateProductScript.TC_27_PostValidFieldToLengthAndLenghtOne()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1387" started-at="2019-05-22T16:43:04Z" finished-at="2019-05-22T16:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_28_PostValidFieldToLengthButBlankHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_28_PostValidFieldToLengthButBlankHeight" duration-ms="3100" started-at="2019-05-22T16:43:06Z" finished-at="2019-05-22T16:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_28_PostValidFieldToLengthButBlankHeight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:43:09Z" finished-at="2019-05-22T16:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_28_PostValidFieldToLengthButBlankHeight status=SUCCESS method=CreateProductScript.TC_28_PostValidFieldToLengthButBlankHeight()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1155" started-at="2019-05-22T16:43:09Z" finished-at="2019-05-22T16:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_29_PostValidFieldToHeightButHeightSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_29_PostValidFieldToHeightButHeightSmallerRange" duration-ms="3237" started-at="2019-05-22T16:43:10Z" finished-at="2019-05-22T16:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_29_PostValidFieldToHeightButHeightSmallerRange -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:43:13Z" finished-at="2019-05-22T16:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_29_PostValidFieldToHeightButHeightSmallerRange status=SUCCESS method=CreateProductScript.TC_29_PostValidFieldToHeightButHeightSmallerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1419" started-at="2019-05-22T16:43:13Z" finished-at="2019-05-22T16:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_30_PostValidFieldToHeightButHeightBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_30_PostValidFieldToHeightButHeightBiggerRange" duration-ms="3105" started-at="2019-05-22T16:43:15Z" finished-at="2019-05-22T16:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_30_PostValidFieldToHeightButHeightBiggerRange -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-22T16:43:18Z" finished-at="2019-05-22T16:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_30_PostValidFieldToHeightButHeightBiggerRange status=SUCCESS method=CreateProductScript.TC_30_PostValidFieldToHeightButHeightBiggerRange()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1277" started-at="2019-05-22T16:43:18Z" finished-at="2019-05-22T16:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_31_PostValidFieldToHeightAndHeightValua1()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_31_PostValidFieldToHeightAndHeightValua1" duration-ms="9727" started-at="2019-05-22T16:43:19Z" finished-at="2019-05-22T16:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_31_PostValidFieldToHeightAndHeightValua1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:43:29Z" finished-at="2019-05-22T16:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_31_PostValidFieldToHeightAndHeightValua1 status=SUCCESS method=CreateProductScript.TC_31_PostValidFieldToHeightAndHeightValua1()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1345" started-at="2019-05-22T16:43:29Z" finished-at="2019-05-22T16:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_32_InputAllFieldCorrectButPriceProductNoDiscount()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_32_InputAllFieldCorrectButPriceProductNoDiscount" duration-ms="8952" started-at="2019-05-22T16:43:30Z" finished-at="2019-05-22T16:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_32_InputAllFieldCorrectButPriceProductNoDiscount -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:43:39Z" finished-at="2019-05-22T16:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_32_InputAllFieldCorrectButPriceProductNoDiscount status=SUCCESS method=CreateProductScript.TC_32_InputAllFieldCorrectButPriceProductNoDiscount()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1182" started-at="2019-05-22T16:43:39Z" finished-at="2019-05-22T16:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct" duration-ms="29621" started-at="2019-05-22T16:43:40Z" finished-at="2019-05-22T16:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:44:10Z" finished-at="2019-05-22T16:44:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct status=SUCCESS method=CreateProductScript.TC_33_CreatProductSuccessfulAfterVerifyAllValueFieldDisplayProduct()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="beforeMethod" is-config="true" duration-ms="1640" started-at="2019-05-22T16:44:10Z" finished-at="2019-05-22T16:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue" duration-ms="21020" started-at="2019-05-22T16:44:12Z" finished-at="2019-05-22T16:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-22T16:44:33Z" finished-at="2019-05-22T16:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue status=SUCCESS method=CreateProductScript.TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.beecow.testcase.CreateProductScript@5c7fa833]" name="afterClass" is-config="true" duration-ms="718" started-at="2019-05-22T16:44:33Z" finished-at="2019-05-22T16:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.beecow.testcase.CreateProductScript -->
+    </test> <!-- Login BeeCow on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

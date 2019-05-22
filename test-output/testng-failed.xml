@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="74.0.3729.6"/>
+  <parameter name="url" value="https://www.beecow.com"/>
+  <test name="Login BeeCow on Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="74.0.3729.6"/>
+    <parameter name="url" value="https://www.beecow.com"/>
+    <classes>
+      <class name="com.beecow.testcase.CreateProductScript">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="BeforeClass"/>
+          <include name="afterMethod"/>
+          <include name="TC_34_CreatProductSuccessfulAfterEditAndVerifyPriceDisplayProductValue"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.beecow.testcase.CreateProductScript -->
+    </classes>
+  </test> <!-- Login BeeCow on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
